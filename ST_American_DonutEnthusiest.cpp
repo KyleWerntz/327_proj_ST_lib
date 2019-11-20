@@ -23,6 +23,8 @@ ST_American_DonutEnthusiest::~ST_American_DonutEnthusiest()	{
 
 // Add all American and American Donut Enthusiest phrases to the vector of phrases
 void ST_American_DonutEnthusiest::populatePhrases()	{
+
+	// add all American phrases
 	Smalltalk_American::populatePhrases();
 
 	mySmallTalk.push_back(AMERICAN_DE_PHRASE_1);
